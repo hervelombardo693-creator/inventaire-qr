@@ -1,0 +1,15 @@
+{
+  "name": "Inventaire QR",
+  "short_name": "Inventaire QR",
+  "description": "Gérer son matériel et son stock avec des QR codes, depuis le téléphone",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
