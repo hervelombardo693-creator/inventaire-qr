@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1d4ed8">
+  <title>Inventaire QR</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icone-192.png">
+  <link rel="apple-touch-icon" href="icone-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bandeau no-print">
+    <a href="#/" class="marque">Inventaire QR</a>
+    <a href="#/reglages" class="lien-bandeau">Réglages</a>
+  </header>
+  <main id="app"><p class="carte">Chargement…</p></main>
+  <script defer src="lib/qrcode.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
